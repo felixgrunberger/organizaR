@@ -12,3 +12,78 @@ fatal: not a git repository (or any of the parent directories): .git
 ]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ https://github.com/felixgrunberger/organizaR.git                                                git init
 Initialized empty Git repository in /Users/felix/Documents/R/organizaR/.git/
 ]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git add .
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ gti  it commit "create organizaR directory and da  add functions "
+error: pathspec 'create organizaR directory and add function' did not match any file(s) known to git.
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git commit "create organizaR directory and add function"[1@-[1@m[1@ 
+[master (root-commit) be29f0d] create organizaR directory and add function
+ 22 files changed, 274 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/32904214/console06/764B4330
+ create mode 100644 .Rproj.user/32904214/console06/764B4330.env
+ create mode 100644 .Rproj.user/32904214/console06/INDEX001
+ create mode 100644 .Rproj.user/32904214/cpp-definition-cache
+ create mode 100644 .Rproj.user/32904214/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/32904214/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/32904214/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/32904214/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/32904214/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/32904214/rmd-outputs
+ create mode 100644 .Rproj.user/32904214/saved_source_markers
+ create mode 100644 .Rproj.user/32904214/sources/s-1A530E37/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/hello.R
+ create mode 100644 R/organizar_function.R
+ create mode 100644 man/hello.Rd
+ create mode 100644 man/organizaR.Rd
+ create mode 100644 organizaR.Rproj
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote add https://github.com/felixgrunberger/organizaR.git     R
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote add https://github.com/felixgrunberger/organizaR.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote add org igin https://github.com/felixgrunberger/organizaR.git
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git push .u  -u origin master
+To https://github.com/felixgrunberger/organizaR.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/felixgrunberger/organizaR.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git push -u origin masterremote add origin https://github.com/felixgrunberger/organizaR.git     R
+fatal: remote origin already exists.
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote remove origin
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote remove originadd origin https://github.com/felixgrunberger/organizaR.git
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remote add origin https://github.com/felixgrunberger/organizaR.gitwlanhome186058:organizaR felix$ git remote remove origin[Kadd origin https://github.com/felixgrunberger/organizaRwlanhome186058:organizaR felix$ git [41Ppush -u origin master
+To https://github.com/felixgrunberger/organizaR.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/felixgrunberger/organizaR.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git add .
