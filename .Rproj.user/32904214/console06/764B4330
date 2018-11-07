@@ -1,0 +1,14 @@
+git clone https://github.com/felixgrunberger/organizaR.git
+fatal: destination path 'organizaR' already exists and is not an empty directory.
+[Kwlanhome186058:R felix$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Documents/Rwlanhome186058:R felix$ git remote add origin https://github.com/felixgrunberger/organizaR.git
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Documents/Rwlanhome186058:R felix$ https://github.com/felixgrunberger/organizaR.git    
+bash: https://github.com/felixgrunberger/organizaR: No such file or directory
+]0;~/Documents/Rwlanhome186058:R felix$ cd organizaR
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git remoa te add https://github.com/felixgrunberger/organizar,    a zaR
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ https://github.com/felixgrunberger/organizaR.git                                                git init
+Initialized empty Git repository in /Users/felix/Documents/R/organizaR/.git/
+]0;~/Documents/R/organizaRwlanhome186058:organizaR felix$ git add .
